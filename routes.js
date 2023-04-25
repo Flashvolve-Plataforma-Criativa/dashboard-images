@@ -20,7 +20,7 @@ router.post('/personalizacao/new', async (req, res) => {
 });
 
 router.get('test-local', (req, res) => {
-   res.send('deu muito bom clonando o repositorio');
+   res.send('deu muito bom clonando o repositorio.');
 });
 
 module.exports = {
